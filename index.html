@@ -7,58 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap style link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- CSS style sheet link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Bootstrap JavaScript links -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <span class="navbar-brand">Grace Yoo</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <span class="navbar-brand">Grace Yoo</span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-            </div>
-        </nav>
-
         <!-- About Me content -->
-        <div class="row">
+        <div class="row row1">
             <div class="col-lg-12">
                 <h1>About Me</h1>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row row2">
+            <div class="col-lg-8">
                 <img id="bio-img" src="assets/images/bio-image.png" width="200" height="250" style="float:left" alt="My Photo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis tempus nibh. Praesent sed justo ut enim imperdiet pharetra. Vestibulum justo justo, ullamcorper nec dapibus in, tincidunt ac urna. Proin sem erat, tincidunt eu dapibus non, malesuada eget risus. Nulla feugiat at diam id sollicitudin. Donec a suscipit purus, ac volutpat metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc semper facilisis justo, id imperdiet turpis tempus quis. Nam finibus vulputate ipsum, quis sodales felis. Quisque maximus risus at ligula porttitor luctus. Ut aliquet, ante vel bibendum accumsan, eros sapien eleifend risus, ac placerat dui augue et odio. Mauris quis lorem sapien. Nunc quis ultricies metus, sed porta risus. Proin ut tellus odio. Mauris bibendum interdum mollis.</p>
                 <p>Sed faucibus massa at lacus vestibulum pellentesque. Pellentesque eu arcu turpis. Cras vel nulla tellus. Etiam mollis lectus sit amet neque dictum vestibulum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse fringilla ipsum ac magna sodales porta. Cras a fringilla libero. Proin quis tristique magna, sed maximus lorem. Sed et convallis ex. Aenean laoreet cursus laoreet. Integer et justo ultricies, bibendum odio nec, placerat sem. Phasellus eget sollicitudin nunc. Ut gravida, enim ac tincidunt sodales, tortor erat euismod massa, sit amet vestibulum nunc neque eget urna. Suspendisse consequat mi eget pulvinar vehicula. Integer condimentum metus velit, in ornare nibh faucibus sed.</p>
                 <p>Maecenas rhoncus sem ac nunc mattis, consectetur laoreet leo congue. Nulla ut nisl ante. Mauris at aliquet ex, non malesuada dolor. Sed viverra ipsum accumsan lectus maximus condimentum. Phasellus porta libero at tortor porta, sed ornare elit elementum. Aliquam tempor lacus sed ex euismod, euismod tempor ante imperdiet. Sed lacinia facilisis magna, nec tempor ante consequat eget. Sed efficitur purus non mollis pretium. Quisque sed semper odio, volutpat faucibus magna.</p>
             </div>
-        </div>
-
-        <!-- Footer -->        
-        <div class="container">
-            <div class="row justify-content-lg-center">
-                Copyright &copy;
+            <div class="col-lg-4">
             </div>
         </div>
 
     </div>
+
+    <!-- Footer -->
+   <div class="navbar navbar-fixed-bottom justify-content-lg-center">
+       Copyright &copy;
+   </div>
+   
 </body>
 </html>
