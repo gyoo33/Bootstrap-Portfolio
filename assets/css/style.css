@@ -10,7 +10,6 @@
 }
 
 .navbar-brand {
-    background-color: #4aaaa5;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-right: 20px;
@@ -19,11 +18,11 @@
 }
 
 .navbar-light .navbar-brand{
-    color: white;
+    color: #042234;
 }
 
 body {
-    background: url(../images/concrete_seamless.png);
+    background: #18638f;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -33,7 +32,7 @@ row {
 
 .row1 {
     background: white;
-    color: #4aaaa5;
+    color: #052c44;
     border-bottom: 2px solid #dddddd;
     margin-top: 20px;
     padding-top: 20px;
@@ -80,9 +79,9 @@ h1 {
 
 /* Footer */
 .navbar-fixed-bottom {
-    position: fixed;
-    border-top: 2px solid #4aaaa5;
-    background-color: #666666;
+    /* //position: fixed; */
+    border-top: 2px solid #B2BCC2;
+    background-color: #113951;
     color: #cccccc;
     font-size: 7px;
     bottom: 0;
