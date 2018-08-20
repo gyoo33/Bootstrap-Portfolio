@@ -9,6 +9,12 @@
     padding-left: 50px;
 }
 
+/* .navbar2 {
+    background: url(../images/beach.jpg);
+    background-position: center center;
+    background-size: cover;
+} */
+
 .navbar-brand {
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -41,10 +47,17 @@ row {
 h1 {
     font-size: 24px;
 }
+
 .row2 {
     background: white;
     padding-top: 20px;
     margin-bottom: 30px;
+}
+
+.smallLogo {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
 }
 
 /* About Me page */
@@ -54,13 +67,13 @@ h1 {
 
 /* Contact Me page */
 .btn-primary {
-    background-color: #4aaaa5;
+    background-color: rgb(139, 178, 202);
     color: white;
     border: none;
     padding: 5px 15px 5px 15px;
     margin-top: 10px;
     margin-bottom: 10px;
-  }
+}
 
 /* Portfolio page */
 .thumbnail {
@@ -68,12 +81,18 @@ h1 {
     padding-bottom: 20px;
 }
 
+.img-thumbnail {
+    width: 200px;
+    height: 180px;
+    float: left;
+}
+
 .caption {
     position: absolute;
     top: 45%;
     left: 0;
     width: 100%;
-    background-color: #4aaaa5;
+    background-color: rgb(139, 178, 202);
     color: white;
 }
 
